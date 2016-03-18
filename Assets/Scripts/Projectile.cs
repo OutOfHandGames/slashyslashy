@@ -18,11 +18,6 @@ public class Projectile : MonoBehaviour {
         rigid.velocity = new Vector2(horiSpeed, 0f);
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     public void DestroySelf()
     {
         active = false;

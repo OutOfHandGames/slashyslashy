@@ -12,10 +12,6 @@ public class Flag : MonoBehaviour {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     void OnTriggerEnter2D(Collider2D col)
     {

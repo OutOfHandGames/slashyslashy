@@ -9,11 +9,6 @@ public class SlowdownZone : MonoBehaviour {
 	void Start () {
         tutorial.SetActive(false);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     void OnTriggerEnter2D(Collider2D col)
     {

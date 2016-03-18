@@ -52,11 +52,6 @@ public class GameManager : MonoBehaviour {
         
 	}
 
-    void FixedUpdate()
-    {
-
-    }
-
     public void SetTimeSlowZones()
     {
         Debug.Log("Set timeslow zone");

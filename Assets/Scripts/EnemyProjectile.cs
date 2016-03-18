@@ -13,11 +13,6 @@ public class EnemyProjectile : EnemyAttack {
     void Start () {
         rigid.velocity = new Vector2(-horiSpeed, 0f);
     }
-	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
 
 	public override void DestroySelf()
     {

@@ -21,11 +21,6 @@ public class UIManager : MonoBehaviour {
         aus = GetComponent<AudioSource>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
-
     public void OnMouseEnterBtn(string buttonName)
     {
         PlayAudio(hover);

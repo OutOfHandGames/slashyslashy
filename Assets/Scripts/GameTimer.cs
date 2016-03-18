@@ -17,11 +17,6 @@ public class GameTimer : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
 	// Update is called once per frame
 	void Update () {
         timerText.text = gm.timeLeft.ToString();

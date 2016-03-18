@@ -13,11 +13,6 @@ public class Weapon : MonoBehaviour {
         wc = transform.parent.GetComponent<WeaponController>();
         col = GetComponent<Collider2D>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        
-    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
