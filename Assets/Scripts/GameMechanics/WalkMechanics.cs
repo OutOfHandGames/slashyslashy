@@ -5,8 +5,8 @@ public class WalkMechanics : MonoBehaviour {
     public float speed = 8;
     public float acceleration = 10;
 
-    float hInput;
-    float vInput;
+    protected float hInput;
+    protected float vInput;
     Rigidbody2D rigid;
 
     void Start()
@@ -25,9 +25,19 @@ public class WalkMechanics : MonoBehaviour {
         this.vInput = vInput;
     }
 
-    void Update()
+    protected virtual void Update()
     {
+        updateMovement();
+    }
 
+    public float getHInput()
+    {
+        return hInput;
+    }
+
+    public float getVInput()
+    {
+        return vInput;
     }
 
     void updateMovement()
@@ -35,6 +45,5 @@ public class WalkMechanics : MonoBehaviour {
         float goalSpeed = speed * hInput;
         Vector2 goalVel = Vector2.right * goalSpeed + Vector2.up * rigid.velocity.y;
         rigid.velocity = Vector2.MoveTowards(rigid.velocity, goalVel, Time.deltaTime * acceleration);
-
     }
 }
