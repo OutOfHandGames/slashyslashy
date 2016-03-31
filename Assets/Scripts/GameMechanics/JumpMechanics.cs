@@ -39,7 +39,7 @@ public class JumpMechanics : MonoBehaviour {
     public void jump()
     {
         RaycastHit2D hit;
-        if (!Physics2D.Raycast(transform.position, Vector2.down, out hit, .01f, 1))
+        if (!Physics2D.Raycast(transform.position, Vector2.down, .01f, 1))
         {
             return;
         }
