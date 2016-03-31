@@ -36,7 +36,6 @@ public class SpriteFlip : MonoBehaviour {
         {
             return;
         }
-        print(walkMechanics.getHInput());
         if (walkMechanics.getHInput() < -.01f)
         {
             isRight = false;
