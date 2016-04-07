@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class DialogueBox : MonoBehaviour {
+    public string[] textList;
     Animator anim;
 
     SpriteRenderer spriteRender;
@@ -10,7 +11,7 @@ public class DialogueBox : MonoBehaviour {
     void Start()
     {
         anim = GetComponent<Animator>();
-        spriteRender = GetComponent<SpriteRenderer>();
+        spriteRender = GetComponentInChildren<SpriteRenderer>();
         mesh = GetComponentInChildren<TextMesh>();
     }
 
@@ -22,7 +23,7 @@ public class DialogueBox : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D collider)
     {
-        print("Hey");
+
         if (collider.tag == "Player")
         {
             anim.SetTrigger("Enter");
