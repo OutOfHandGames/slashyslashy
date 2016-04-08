@@ -20,6 +20,9 @@ public class TextSpeech : MonoBehaviour {
             timeRemaining = Mathf.MoveTowards(timeRemaining, 0, Time.deltaTime);
         }
 
-        if (timeRemaining)
+        if (timeRemaining > 0)
+        {
+
+        }
     }
 }
