@@ -6,10 +6,12 @@ public class SoundScripts : MonoBehaviour {
     public AudioClip[] aClips;//If you want an audio cue to have multiple possible sounds add them here
     public float[] aClipChance;//If you just want an equal chance for all sounds, leave this blank. Or don't. I'm not the police.
 
-    public float minVol;//Pretty obvious. Useful if you don't want your sounds to be super monotonous
-    public float maxVol;
-    public float minPitch;
-    public float maxPitch;
+    public float minVol = .95f;//Pretty obvious. Useful if you don't want your sounds to be super monotonous
+    public float maxVol = 1;
+    public float minPitch = .97f;
+    public float maxPitch = 1.05f;
+
+    public bool randomSoundOff = false;
 
     float delayTimer = 0;
 
@@ -19,11 +21,28 @@ public class SoundScripts : MonoBehaviour {
         {
             aSource = GetComponent<AudioSource>();
         }
+        normalizeAClipChance();
     }
 
     void Update()
     {
-        
+        bool delayActive = false;
+        if (delayTimer > 0)
+        {
+            delayActive = true;
+        }
+        delayTimer = Mathf.MoveTowards(delayTimer, 0, Time.deltaTime);
+        if (delayActive && delayTimer <= 0)
+        {
+            if (randomSoundOff)
+            {
+                playSound();
+            }
+            else
+            {
+                playRandomSound();
+            }
+        }
     }
 
     public void playSound()
@@ -43,7 +62,7 @@ public class SoundScripts : MonoBehaviour {
         setPitch(Random.Range(minPitch, maxPitch));
         setVolume(Random.Range(minVol, maxVol));
         setClip(getRandomClip());
-
+        aSource.Play();
     }
 
     int getRandomClip()
