@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b430baf8ec61fd346a07d32bed3eab85
-timeCreated: 1460253035
+timeCreated: 1460316733
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -209,8 +209,8 @@ TextureImporter:
         y: 146
         width: 28
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4837122, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: AttackPlayer01
@@ -221,7 +221,7 @@ TextureImporter:
         width: 26
         height: 36
       alignment: 9
-      pivot: {x: 0.51986784, y: 0}
+      pivot: {x: 0.51986814, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: AttackPlayer02
@@ -232,15 +232,15 @@ TextureImporter:
         width: 37
         height: 42
       alignment: 9
-      pivot: {x: 0.6518289, y: 0}
+      pivot: {x: 0.6614695, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24.117668, y: 42}
-        - {x: -24.117668, y: 21}
-        - {x: -10.117668, y: 0}
-        - {x: 12.882332, y: 0}
-        - {x: 12.882332, y: 37}
-        - {x: 3.8823318, y: 42}
+      - - {x: -24.474373, y: 42}
+        - {x: -24.474373, y: 21}
+        - {x: -10.474373, y: 0}
+        - {x: 12.525627, y: 0}
+        - {x: 12.525627, y: 37}
+        - {x: 3.5256271, y: 42}
     - name: AttackPlayer03
       rect:
         serializedVersion: 2
@@ -249,16 +249,16 @@ TextureImporter:
         width: 40
         height: 51
       alignment: 9
-      pivot: {x: 0.334206, y: 0.045433793}
+      pivot: {x: 0.3374489, y: 0.06}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -1.3682404, y: 48.682877}
-        - {x: -13.36824, y: 36.682877}
-        - {x: -13.36824, y: 0.6828766}
-        - {x: -12.36824, y: -2.3171234}
-        - {x: 26.63176, y: -2.3171234}
-        - {x: 26.63176, y: 47.682877}
-        - {x: 25.63176, y: 48.682877}
+      - - {x: -1.4979553, y: 47.940002}
+        - {x: -13.497955, y: 35.940002}
+        - {x: -13.497955, y: -0.05999756}
+        - {x: -12.497955, y: -3.0599976}
+        - {x: 26.502045, y: -3.0599976}
+        - {x: 26.502045, y: 46.940002}
+        - {x: 25.502045, y: 47.940002}
     - name: AttackPlayer04
       rect:
         serializedVersion: 2
@@ -267,14 +267,14 @@ TextureImporter:
         width: 34
         height: 39
       alignment: 9
-      pivot: {x: 0.39762026, y: 0.07990089}
+      pivot: {x: 0.39571247, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13.519089, y: 35.883865}
-        - {x: -13.519089, y: -3.1161346}
-        - {x: 20.480911, y: -3.1161346}
-        - {x: 20.480911, y: 23.883865}
-        - {x: 13.480911, y: 35.883865}
+      - - {x: -13.454224, y: 35.880005}
+        - {x: -13.454224, y: -3.119995}
+        - {x: 20.545776, y: -3.119995}
+        - {x: 20.545776, y: 23.880005}
+        - {x: 13.545776, y: 35.880005}
     - name: AttackPlayer05
       rect:
         serializedVersion: 2
@@ -282,8 +282,8 @@ TextureImporter:
         y: 144
         width: 28
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.48299953, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Player Animation_18

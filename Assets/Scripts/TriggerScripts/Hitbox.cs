@@ -8,10 +8,20 @@ public class Hitbox : MonoBehaviour {
     public Vector2 knockBackDirection = Vector2.zero;
     public float knockBackForce = 100;
     public bool isHurtBox = false;
+    public string id;
 
+
+    void Start()
+    {
+        id = this.tag;
+    }
 
     void OnTriggerEnter2D (Collider2D collider)
     {
+        if (collider.tag == id)
+        {
+            return;
+        }
         Hitbox aHitbox = collider.GetComponent<Hitbox>();
         if (aHitbox != null)
         {
@@ -61,6 +71,10 @@ public class Hitbox : MonoBehaviour {
 
     void OnTriggerExit2D (Collider2D collider)
     {
+        if (collider.tag == id)
+        {
+            return;
+        }
         Hitbox aHitbox = collider.GetComponent<Hitbox>();
         if (aHitbox != null)
         {
