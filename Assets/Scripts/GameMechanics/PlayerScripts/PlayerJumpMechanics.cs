@@ -5,6 +5,7 @@ public class PlayerJumpMechanics : JumpMechanics {
 
     protected override void Update()
     {
+        base.Update();
         fastFall = Input.GetAxisRaw("Vertical") < -.01f;
         slowFall = Input.GetButton("Jump");
         Debug.DrawLine(transform.position, transform.position + Vector3.down * .01f, Color.red);

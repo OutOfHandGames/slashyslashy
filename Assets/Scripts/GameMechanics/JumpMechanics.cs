@@ -6,6 +6,7 @@ public class JumpMechanics : MonoBehaviour {
 
     protected bool fastFall;
     protected bool slowFall;
+    bool inAir;
     CustomGravity grav;
     Vector2 jumpDirection = Vector2.up;
     Rigidbody2D rigid;
@@ -18,7 +19,9 @@ public class JumpMechanics : MonoBehaviour {
 
     protected virtual void Update()
     {
-        
+        RaycastHit hit;
+        Ray2D ray = new Ray2D(transform.position, Vector2.down);
+        inAir = !Physics2D.Raycast(ray.origin, ray.direction, .001f, 1);
     }
 
     void FixedUpdate()
@@ -38,8 +41,7 @@ public class JumpMechanics : MonoBehaviour {
 
     public void jump()
     {
-        RaycastHit2D hit;
-        if (!Physics2D.Raycast(transform.position, Vector2.down, .01f, 1))
+        if (inAir)
         {
             return;
         }
@@ -61,5 +63,10 @@ public class JumpMechanics : MonoBehaviour {
         {
             grav.gravityScale = 1;
         }
+    }
+
+    public bool getInAir()
+    {
+        return inAir;
     }
 }
