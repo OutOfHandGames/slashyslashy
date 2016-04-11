@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour {
     {
         if (target == null)
         {
-            target = GameObject.FindGameObjectWithTag("Player").transform;
+            target = GameObject.FindObjectOfType<PlayerWalkMechanics>().transform;
         }
         //GetComponent<Camera>().transparencySortMode = TransparencySortMode.Orthographic;
         zPosition = transform.position.z;
