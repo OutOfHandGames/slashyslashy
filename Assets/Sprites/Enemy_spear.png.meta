@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f3d94734ab9fa554eb1a5d0bcc13c27e
-timeCreated: 1455915553
+timeCreated: 1460382971
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ TextureImporter:
     21300002: Enemy_spear_1
     21300004: Enemy_spear_2
     21300006: Enemy_spear_3
+    21300008: SpecialEnemy_00
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,7 +63,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Enemy_spear_1
@@ -73,7 +74,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Enemy_spear_2
@@ -84,7 +85,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Enemy_spear_3
@@ -95,7 +96,18 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SpecialEnemy_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.32484946, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

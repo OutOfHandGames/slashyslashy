@@ -7,13 +7,26 @@ using System.Collections;
 public class Hitbox : MonoBehaviour {
     public Vector2 knockBackDirection = Vector2.zero;
     public float knockBackForce = 100;
+    public float damage = 0;
     public bool isHurtBox = false;
-    public string id;
+    
+    string id;
+
+    Transform parentObject;
+    SpriteFlip spriteFlip;
 
 
     void Start()
     {
         id = this.tag;
+
+        parentObject = transform.parent;
+        while(parentObject.parent != null)
+        {
+            parentObject = parentObject.parent;
+        }
+        spriteFlip = parentObject.GetComponent<SpriteFlip>();
+
     }
 
     void OnTriggerEnter2D (Collider2D collider)
@@ -51,6 +64,19 @@ public class Hitbox : MonoBehaviour {
             return;
         }
 
+        Health enemyHealth = hBox.getParentObject().GetComponent<Health>();
+        Rigidbody2D eRigid = hBox.getParentObject().GetComponent<Rigidbody2D>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.takeDamage(damage, this);
+        }
+
+        if (eRigid != null)
+        {
+            eRigid.AddForce(knockBackDirection * knockBackForce, ForceMode2D.Impulse);
+        }
+
+
     }
 
     protected virtual void hitboxExited(Hitbox hBox)
@@ -67,6 +93,7 @@ public class Hitbox : MonoBehaviour {
         {
             return;
         }
+        
     }
 
     void OnTriggerExit2D (Collider2D collider)
@@ -87,5 +114,10 @@ public class Hitbox : MonoBehaviour {
                 hitboxExited(aHitbox);
             }
         }
+    }
+
+    public Transform getParentObject()
+    {
+        return parentObject;
     }
 }

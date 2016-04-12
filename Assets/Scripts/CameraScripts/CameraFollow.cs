@@ -7,6 +7,11 @@ public class CameraFollow : MonoBehaviour {
     public float xOffset;
     public float yOffset;
 
+    public float minX = -Mathf.Infinity;
+    public float maxX = Mathf.Infinity;
+    public float minY = -Mathf.Infinity;
+    public float maxY = Mathf.Infinity;
+
     float zPosition;
     Vector3 currentVel;
 
