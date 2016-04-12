@@ -14,8 +14,18 @@ public class ShieldMechanics : MonoBehaviour {
         this.isShielding = isShielding;
     }
 
+    public bool getIsShielding()
+    {
+        return isShielding;
+    }
+
     public bool checkCanShield()
     {
         return true;
+    }
+
+    protected virtual void Update()
+    {
+
     }
 }
