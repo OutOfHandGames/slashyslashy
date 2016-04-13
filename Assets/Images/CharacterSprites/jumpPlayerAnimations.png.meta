@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: a57e3f87cb41eb8439ac1e9507fafb03
-timeCreated: 1458291274
+guid: 10a72f8e50639b64bba3a4c20ccce92a
+timeCreated: 1460505308
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: jumpPlayerAnimations_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,10 +39,10 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
@@ -49,7 +50,18 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: jumpPlayerAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61545455, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

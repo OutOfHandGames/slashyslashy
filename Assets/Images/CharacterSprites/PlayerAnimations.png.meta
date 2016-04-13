@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 2cf06eec479210349b1bae904a2213cf
+timeCreated: 1460507102
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerAnimations_0
+    21300002: PlayerAnimations_1
+    21300004: PlayerAnimations_2
+    21300006: PlayerAnimations_3
+    21300008: PlayerAnimations_4
+    21300010: PlayerAnimations_5
+    21300012: PlayerAnimations_6
+    21300014: PlayerAnimations_7
+    21300016: PlayerAnimations_8
+    21300018: PlayerAnimations_9
+    21300020: PlayerAnimations_10
+    21300022: PlayerAnimations_11
+    21300024: PlayerAnimations_12
+    21300026: PlayerAnimations_13
+    21300028: PlayerAnimations_14
+    21300030: PlayerAnimations_15
+    21300032: PlayerAnimations_16
+    21300034: PlayerAnimations_17
+    21300036: PlayerAnimations_18
+    21300038: PlayerAnimations_19
+    21300040: PlayerAnimations_20
+    21300042: PlayerAnimations_21
+    21300044: PlayerAnimations_22
+    21300046: PlayerAnimations_23
+    21300048: PlayerAnimations_24
+    21300050: PlayerAnimations_25
+    21300052: PlayerAnimations_26
+    21300054: PlayerAnimations_27
+    21300056: PlayerAnimations_28
+    21300058: PlayerAnimations_29
+    21300060: PlayerAnimations_30
+    21300062: PlayerAnimations_31
+    21300064: PlayerAnimations_32
+    21300066: PlayerAnimations_33
+    21300068: PlayerAnimations_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 240
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61560863, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 240
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6162279, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 240
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61604, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 240
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61447215, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 240
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.61447215, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 240
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6160403, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 240
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6144728, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 240
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6144728, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 151
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 151
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 151
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 150
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 150
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 151
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.48231336, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 79
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5204588, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 79
+        width: 37
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6628717, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.526253, y: 42}
+        - {x: -24.526253, y: 11}
+        - {x: -11.526253, y: 5}
+        - {x: 1.4737473, y: 0}
+        - {x: 12.473747, y: 0}
+        - {x: 12.473747, y: 33}
+        - {x: 0.47374725, y: 42}
+    - name: PlayerAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 76
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.33850783, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.540314, y: 46}
+        - {x: -13.540314, y: 40}
+        - {x: -13.540314, y: -4}
+        - {x: 21.459686, y: -4}
+        - {x: 26.459686, y: -1}
+        - {x: 26.459686, y: 38}
+        - {x: 20.459686, y: 46}
+    - name: PlayerAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 75
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.39842898, y: 0.075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.546585, y: 36.074997}
+        - {x: -13.546585, y: -2.925003}
+        - {x: 20.453415, y: -2.925003}
+        - {x: 20.453415, y: 24.074997}
+        - {x: 13.453415, y: 36.074997}
+    - name: PlayerAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 77
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.48178482, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 59
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.54361564, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 58
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5918482, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 58
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.649691, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 58
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.64969176, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 56
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.6502212, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 57
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.6545471, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 57
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.6254985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_29
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 59
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.57675594, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 10
+        width: 28
+        height: 7
+      alignment: 9
+      pivot: {x: 0.14842033, y: 0.5086669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 6
+        width: 13
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 13
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimations_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 5
+        width: 7
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14473769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
