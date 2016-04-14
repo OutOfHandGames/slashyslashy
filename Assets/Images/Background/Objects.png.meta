@@ -1,13 +1,25 @@
 fileFormatVersion: 2
 guid: bc5a0dbd130f955439d6ad455a01ab38
-timeCreated: 1460654994
+timeCreated: 1460655480
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: HazardSign
+    21300002: Grass tile
+    21300004: weaponrack
+    21300006: cannonBall
+    21300008: woodbox
+    21300010: Dirt tile
+    21300012: barricade
+    21300014: crack_left
+    21300016: crack_right
+    21300018: walltile
+    21300020: crackdirt_left
+    21300022: crackdirt_right
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -38,7 +50,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +61,181 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: HazardSign
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 354
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass tile
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 316
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: weaponrack
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 293
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 1.5}
+        - {x: 28.5, y: 4.5}
+        - {x: 20.5, y: 33.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 9.5, y: 29.5}
+        - {x: 8.5, y: 23.5}
+        - {x: 10.5, y: 33.5}
+        - {x: 0.5, y: 33.5}
+        - {x: -1.5, y: 29.5}
+        - {x: -1.5, y: 33.5}
+        - {x: -10.5, y: 33.5}
+        - {x: -12.5, y: 29.5}
+        - {x: -34.5, y: 3.5}
+        - {x: -34.5, y: -33.5}
+        - {x: 34.5, y: -33.5}
+        - {x: 34.5, y: -10.5}
+    - name: cannonBall
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: woodbox
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 290
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 18}
+        - {x: -21.5, y: -18}
+        - {x: 21.5, y: -18}
+        - {x: 21.5, y: 18}
+    - name: Dirt tile
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 258
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: barricade
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 205
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: crack_left
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 122
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 25}
+        - {x: -16.5, y: -25}
+        - {x: 11.5, y: -25}
+        - {x: 16.5, y: -15}
+        - {x: 16.5, y: 25}
+    - name: crack_right
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 121
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -14}
+        - {x: -9, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: walltile
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 50}
+        - {x: -50, y: -50}
+        - {x: 50, y: -50}
+        - {x: 50, y: 50}
+    - name: crackdirt_left
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: crackdirt_right
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 63
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
