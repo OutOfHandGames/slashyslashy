@@ -7,6 +7,9 @@ public class PlayerAnimation : MonoBehaviour {
     JumpMechanics jumpMechanics;
     ShieldMechanics shieldMechanics;
 
+    const int TORSO = 0;
+    const int LEGS = 1;
+
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
@@ -20,5 +23,11 @@ public class PlayerAnimation : MonoBehaviour {
         anim.SetFloat("Speed", Mathf.Abs(walkMechanics.getHInput()));
         anim.SetBool("inAir", jumpMechanics.getInAir());
         anim.SetBool("isShielding", shieldMechanics.getIsShielding());
+        if (anim.GetCurrentAnimatorStateInfo(TORSO).IsName("Torso_Attack"))
+        {
+            anim.ResetTrigger("Attack");
+
+        }
+        
 	}
 }
