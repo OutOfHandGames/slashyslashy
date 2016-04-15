@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: f64121ad6d6da2d45a40119db0a477cd
+timeCreated: 1460669954
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerAnimationSplit_0
+    21300002: PlayerAnimationSplit_1
+    21300004: PlayerAnimationSplit_2
+    21300006: Torso_Stiff_Idle_00
+    21300008: PlayerAnimationSplit_4
+    21300010: Torso_Attack_00
+    21300012: Torso_Attack_01
+    21300014: Torso_Attack_02
+    21300016: Torso_Attack_03
+    21300018: Torso_Attack_04
+    21300020: Legs_Attack_Idle_00
+    21300022: Legs_Attack_Idle_01
+    21300024: Legs_Attack_Idle_02
+    21300026: Legs_Attack_Idle_03
+    21300028: Legs_Attack_Idle_04
+    21300030: PlayerAnimationSplit_15
+    21300032: Torso_Run_00
+    21300034: Torso_Run_01
+    21300036: Torso_Run_02
+    21300038: Torso_Run_03
+    21300040: Torso_Run_04
+    21300042: Torso_Run_05
+    21300044: Torso_Run_06
+    21300046: Legs_Idle_00
+    21300048: Legs_Run_00
+    21300050: Legs_Run_01
+    21300052: Legs_Run_02
+    21300054: Legs_Run_03
+    21300056: Legs_Run_04
+    21300058: Legs_Run_05
+    21300060: Legs_Run_06
+    21300062: PlayerAnimationSplit_31
+    21300064: Legs_Jump_00
+    21300066: Torso_Idle_00
+    21300068: Torso_Idle_01
+    21300070: PlayerAnimationSplit_35
+    21300072: PlayerAnimationSplit_36
+    21300074: PlayerAnimationSplit_37
+    21300076: PlayerAnimationSplit_38
+    21300078: PlayerAnimationSplit_39
+    21300080: PlayerAnimationSplit_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerAnimationSplit_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 348
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 348
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 297
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Stiff_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 301
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6130437, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 221
+        width: 22
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Attack_00
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 233
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6139131, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Attack_01
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 232
+        width: 33
+        height: 42
+      alignment: 9
+      pivot: {x: 0.7415321, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.470558, y: 42}
+        - {x: -24.470558, y: 19}
+        - {x: -18.470558, y: 9}
+        - {x: -13.470558, y: 7}
+        - {x: 3.5294418, y: 7}
+        - {x: 8.529442, y: 8}
+        - {x: 8.529442, y: 36}
+        - {x: 0.52944183, y: 42}
+    - name: Torso_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 236
+        width: 40
+        height: 51
+      alignment: 9
+      pivot: {x: 0.33805314, y: 0.05984318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.522125, y: 47.947998}
+        - {x: -13.522125, y: 35.947998}
+        - {x: -13.522125, y: -1.052002}
+        - {x: -10.522125, y: -3.052002}
+        - {x: 26.477875, y: -3.052002}
+        - {x: 26.477875, y: 46.947998}
+        - {x: 24.477875, y: 47.947998}
+    - name: Torso_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 234
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.39672357, y: 0.07730963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.511398, y: 20.984924}
+        - {x: 10.511398, y: 9.984924}
+        - {x: 7.5113983, y: 5.9849243}
+        - {x: 10.511398, y: 10.984924}
+        - {x: 10.511398, y: 12.984924}
+        - {x: 7.5113983, y: 18.984924}
+        - {x: 10.511398, y: 21.984924}
+        - {x: 10.511398, y: 24.984924}
+        - {x: 5.5113983, y: 35.984924}
+        - {x: -10.488602, y: 35.984924}
+        - {x: -13.488602, y: 33.984924}
+        - {x: -13.488602, y: -3.0150757}
+        - {x: 20.511398, y: -3.0150757}
+        - {x: 20.511398, y: 21.984924}
+        - {x: 18.511398, y: 26.984924}
+    - name: Torso_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 233
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4824355, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Attack_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 221
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.535, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Attack_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 221
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.535, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Attack_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 221
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.535, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Attack_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 220
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5377677, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Attack_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 219
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.53596604, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 173
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6155269, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_00
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61363673, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_01
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 172
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6154549, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_02
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 172
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 171
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61454564, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_04
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 170
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6145449, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_05
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 169
+        width: 22
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61499023, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Run_06
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 169
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6148862, y: -0.02838571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 160
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.53769505, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_00
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 160
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_01
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 160
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_02
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_03
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 159
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_04
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 159
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.654, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_05
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 159
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.577, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Run_06
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 160
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 97
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Legs_Jump_00
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.4927726, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.61301214, y: -0.1993759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torso_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 45
+        width: 22
+        height: 33
+      alignment: 9
+      pivot: {x: 0.61392665, y: -0.09029353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 32
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_36
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 33
+        width: 7
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14349434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 37
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 32
+        width: 28
+        height: 7
+      alignment: 9
+      pivot: {x: 0.13947079, y: 0.48787907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerAnimationSplit_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 26
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
