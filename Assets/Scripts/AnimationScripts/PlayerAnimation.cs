@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PlayerAnimation : MonoBehaviour {
+    public SpriteRenderer shieldSprite;
     Animator anim;
     WalkMechanics walkMechanics;
     JumpMechanics jumpMechanics;
@@ -9,6 +10,7 @@ public class PlayerAnimation : MonoBehaviour {
 
     const int TORSO = 0;
     const int LEGS = 1;
+    const int SHIELD = 2;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +28,14 @@ public class PlayerAnimation : MonoBehaviour {
         if (anim.GetCurrentAnimatorStateInfo(TORSO).IsName("Torso_Attack"))
         {
             anim.ResetTrigger("Attack");
-
+        }
+        if (anim.GetCurrentAnimatorStateInfo(SHIELD).IsName("Shield_Up"))
+        {
+            shieldSprite.sortingOrder = 2;
+        }
+        else
+        {
+            shieldSprite.sortingOrder = 0;
         }
         
 	}
