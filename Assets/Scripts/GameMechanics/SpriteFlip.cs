@@ -7,6 +7,7 @@ public class SpriteFlip : MonoBehaviour {
 
     WalkMechanics walkMechanics;
     SpriteRenderer spriteRenderer;
+    bool previousDirection;
 
     void Start()
     {
@@ -19,11 +20,16 @@ public class SpriteFlip : MonoBehaviour {
     {
         updateSpriteDirection();
         setSpriteDirection();
+        previousDirection = !isRight;
     }
 
     void setSpriteDirection()
     {
         if (flipLock)
+        {
+            return;
+        }
+        if (previousDirection == isRight)
         {
             return;
         }
@@ -35,6 +41,7 @@ public class SpriteFlip : MonoBehaviour {
         {
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
+        previousDirection = isRight;
     }
 
     protected virtual void updateSpriteDirection()

@@ -26,13 +26,25 @@ public class ProjectileMechanics : MonoBehaviour {
         rigid.AddForce(forceApplied, ForceMode2D.Impulse);
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    void OnCollisionEnter2D(Collision2D collider)
     {
+        Destroy(this.gameObject);
+        Quaternion oldRotation = transform.rotation;
+        transform.rotation = collider.collider.transform.rotation;
+        transform.parent = collider.collider.transform;
+        transform.localRotation = oldRotation;
         foreach(Collider2D c in GetComponents<Collider2D>())
         {
             c.enabled = false;
         }
+        scaleBugFix(Vector3.one);
         this.enabled = false;
         rigid.isKinematic = true;
     }
+
+    void scaleBugFix(Vector3 originalScale)
+    {
+       // transform.localScale = new Vector3 (originalScale.x * transform.parent.localScale.x, originalScale.y * transform.parent.localScale.y, originalScale.z * transform.parent.localScale.z);
+    }
+    
 }
