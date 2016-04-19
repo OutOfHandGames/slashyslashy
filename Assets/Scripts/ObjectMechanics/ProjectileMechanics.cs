@@ -28,23 +28,31 @@ public class ProjectileMechanics : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D collider)
     {
-        Destroy(this.gameObject);
-        Quaternion oldRotation = transform.rotation;
-        transform.rotation = collider.collider.transform.rotation;
-        transform.parent = collider.collider.transform;
-        transform.localRotation = oldRotation;
+        Destroy(this.GetComponent<Rigidbody2D>());
+        
+        scaleBugFix(collider.collider.transform);
         foreach(Collider2D c in GetComponents<Collider2D>())
         {
             c.enabled = false;
         }
-        scaleBugFix(Vector3.one);
         this.enabled = false;
         rigid.isKinematic = true;
     }
 
-    void scaleBugFix(Vector3 originalScale)
+    void scaleBugFix(Transform parent)
     {
-       // transform.localScale = new Vector3 (originalScale.x * transform.parent.localScale.x, originalScale.y * transform.parent.localScale.y, originalScale.z * transform.parent.localScale.z);
+        if (parent.localScale.x > 0)
+        {
+            transform.parent = parent;
+            return;
+        }
+        Quaternion oldRotation = transform.rotation;
+        transform.parent = parent;
+        transform.localScale = parent.lossyScale;
+        transform.rotation = Quaternion.Inverse(oldRotation);
+
+        //transform.rotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + (parent.eulerAngles.z - transform.eulerAngles.z));
+
     }
-    
+
 }
