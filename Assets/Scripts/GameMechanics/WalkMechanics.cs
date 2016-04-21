@@ -27,6 +27,11 @@ public class WalkMechanics : MonoBehaviour {
 
     protected virtual void Update()
     {
+        
+    }
+
+    void FixedUpdate()
+    {
         updateMovement();
     }
 
