@@ -32,7 +32,7 @@ public class JumpMechanics : MonoBehaviour {
 
     void FixedUpdate()
     {
-       // updateFallSpeed();
+        updateFallSpeed();
         //inAir = Mathf.Abs(rigid.velocity.y) > .1f;
         
     }
