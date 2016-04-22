@@ -32,8 +32,8 @@ public class JumpMechanics : MonoBehaviour {
 
     void FixedUpdate()
     {
-        updateFallSpeed();
-        inAir = Mathf.Abs(rigid.velocity.y) > .1f;
+       // updateFallSpeed();
+        //inAir = Mathf.Abs(rigid.velocity.y) > .1f;
         
     }
 
@@ -71,6 +71,16 @@ public class JumpMechanics : MonoBehaviour {
         {
             grav.gravityScale = 1;
         }
+    }
+
+    void OnTriggerExit2D (Collider2D collider)
+    {
+        inAir = true;
+    }
+    
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        inAir = false;
     }
 
     public bool getInAir()
