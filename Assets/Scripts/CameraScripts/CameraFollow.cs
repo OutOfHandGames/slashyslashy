@@ -34,7 +34,7 @@ public class CameraFollow : MonoBehaviour {
         goalPosition += Vector3.up * (target.position.y + yOffset);
         goalPosition += Vector3.right * (target.position.x + xOffset);
 
-        transform.position = Vector3.SmoothDamp(transform.position, goalPosition, ref currentVel, cameraAcceleration * Time.deltaTime);
+        transform.position = Vector3.SmoothDamp(transform.position, goalPosition, ref currentVel, cameraAcceleration);
     }
 
     public void setTarget(Transform target)
