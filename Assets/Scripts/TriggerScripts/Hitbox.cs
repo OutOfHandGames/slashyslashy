@@ -7,7 +7,7 @@ using System.Collections;
 public class Hitbox : MonoBehaviour {
     public Vector2 knockBackDirection = Vector2.zero;
     public float knockBackForce = 100;
-    public float damage = 0;
+    public float damage = 100;
     public bool isHurtBox = false;
     
     string id;

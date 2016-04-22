@@ -3,6 +3,10 @@ using System.Collections;
 
 public class JumpMechanics : MonoBehaviour {
     public float jumpForce = 15;
+    public float fastFallScale = 1.5f;
+    public float slowFallScale = .7f;
+    public float offsetJumpLeft = -.5f;
+    public float offsetJumpRight = .5f;
 
     protected bool fastFall;
     protected bool slowFall;
@@ -21,12 +25,16 @@ public class JumpMechanics : MonoBehaviour {
     {
         RaycastHit hit;
         Ray2D ray = new Ray2D(transform.position, Vector2.down);
-        inAir = !Physics2D.Raycast(ray.origin, ray.direction, .001f, 1);
+        //inAir = !Physics2D.Raycast(ray.origin, ray.direction, .001f, 1) && !Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpLeft, ray.direction, .0001f, 1) &&
+        //!Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpRight, ray.direction, .0002f, 1);
+        
     }
 
     void FixedUpdate()
     {
         updateFallSpeed();
+        inAir = Mathf.Abs(rigid.velocity.y) > .1f;
+        
     }
 
     public void setFastFall(bool fastFallOn)
@@ -52,12 +60,12 @@ public class JumpMechanics : MonoBehaviour {
     {
         if (fastFall)
         {
-            grav.gravityScale = 1.5f;
+            grav.gravityScale = fastFallScale;
             
         }
         else if (slowFall)
         {
-            grav.gravityScale = .7f;
+            grav.gravityScale = slowFallScale;
         }
         else
         {
@@ -67,6 +75,6 @@ public class JumpMechanics : MonoBehaviour {
 
     public bool getInAir()
     {
-        return inAir;
+        return inAir || rigid.velocity.y > 0.001f;
     }
 }

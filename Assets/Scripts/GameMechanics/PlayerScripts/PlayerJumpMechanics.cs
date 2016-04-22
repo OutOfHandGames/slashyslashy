@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PlayerJumpMechanics : JumpMechanics {
+    public float[] offsetChecks;
 
     protected override void Update()
     {
