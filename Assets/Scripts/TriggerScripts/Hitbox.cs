@@ -14,6 +14,8 @@ public class Hitbox : MonoBehaviour {
 
     Transform parentObject;
     SpriteFlip spriteFlip;
+    Rigidbody2D rigid;
+    Collider2D hitBoxCollider;
 
 
     void Start()
@@ -21,6 +23,10 @@ public class Hitbox : MonoBehaviour {
         id = this.tag;
 
         parentObject = transform.parent;
+        rigid = GetComponent<Rigidbody2D>();
+        hitBoxCollider = GetComponent<Collider2D>();
+        rigid.isKinematic = true;
+        hitBoxCollider.isTrigger = true;
         while(parentObject.parent != null)
         {
             parentObject = parentObject.parent;
@@ -63,7 +69,7 @@ public class Hitbox : MonoBehaviour {
         {
             return;
         }
-
+        print(transform.name);
         Health enemyHealth = hBox.getParentObject().GetComponent<Health>();
         Rigidbody2D eRigid = hBox.getParentObject().GetComponent<Rigidbody2D>();
         if (enemyHealth != null)

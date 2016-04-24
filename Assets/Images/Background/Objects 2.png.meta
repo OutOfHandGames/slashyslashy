@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fc4d45c0e352a1b4fa00d0affe70b075
-timeCreated: 1460937864
+timeCreated: 1461528144
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -76,7 +76,7 @@ TextureImporter:
         width: 23
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Objects 2_1
@@ -87,7 +87,7 @@ TextureImporter:
         width: 21
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Objects 2_2
@@ -98,7 +98,7 @@ TextureImporter:
         width: 28
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Objects 2_3
@@ -109,7 +109,7 @@ TextureImporter:
         width: 40
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -20, y: 18.5}
@@ -123,8 +123,8 @@ TextureImporter:
         y: 407
         width: 19
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Objects 2_5
@@ -200,7 +200,7 @@ TextureImporter:
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -17, y: 17}
@@ -292,7 +292,7 @@ TextureImporter:
         width: 55
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -27.5, y: 25}
@@ -308,7 +308,7 @@ TextureImporter:
         width: 200
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 72, y: 109.5}
@@ -335,7 +335,7 @@ TextureImporter:
         width: 100
         height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -50, y: 59.5}

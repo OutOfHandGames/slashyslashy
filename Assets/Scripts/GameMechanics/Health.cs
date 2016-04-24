@@ -6,7 +6,7 @@ public class Health : MonoBehaviour {
 
     float currentHealth;
 
-    void Start()
+    protected virtual void Start()
     {
         currentHealth = maxHealth;
     }
@@ -16,7 +16,7 @@ public class Health : MonoBehaviour {
         
     }
 
-    public void takeDamage(float damageTaken, Hitbox hitbox)
+    public virtual void takeDamage(float damageTaken, Hitbox hitbox)
     {
 
         currentHealth -= damageTaken;
