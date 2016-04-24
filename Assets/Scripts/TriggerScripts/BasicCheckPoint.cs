@@ -7,7 +7,7 @@ public class BasicCheckPoint : MonoBehaviour {
     CheckPointManager checkPointManager;
     Vector3 resetPosition;
     
-    void Awake()
+    void Start()
     {
         checkPointManager = transform.parent.GetComponent<CheckPointManager>();
         player = checkPointManager.playerTransform;
@@ -21,6 +21,16 @@ public class BasicCheckPoint : MonoBehaviour {
 
     public void resetPlayerPosition()
     {
+        print(player.position);
         player.position = resetPosition;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.name == "Player")
+        {
+            print(collider.name);
+            resetPlayerPosition();
+        }
     }
 }

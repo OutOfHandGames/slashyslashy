@@ -8,6 +8,10 @@ public class CheckPointManager : MonoBehaviour {
     void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        while (playerTransform.parent != null)
+        {
+            playerTransform = playerTransform.parent;
+        }
         currentCheckPoint.gameObject.SetActive(true);
     }
 
@@ -16,5 +20,10 @@ public class CheckPointManager : MonoBehaviour {
         this.currentCheckPoint.gameObject.SetActive(false);
         checkPoint.gameObject.SetActive(false);
         this.currentCheckPoint = checkPoint;
+    }
+
+    public void resetCheckPoint()
+    {
+        this.currentCheckPoint.resetPlayerPosition();
     }
 }
