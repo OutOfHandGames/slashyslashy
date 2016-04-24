@@ -25,8 +25,8 @@ public class JumpMechanics : MonoBehaviour {
     {
         RaycastHit hit;
         Ray2D ray = new Ray2D(transform.position, Vector2.down);
-        //inAir = !Physics2D.Raycast(ray.origin, ray.direction, .001f, 1) && !Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpLeft, ray.direction, .0001f, 1) &&
-        //!Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpRight, ray.direction, .0002f, 1);
+        inAir = !Physics2D.Raycast(ray.origin, ray.direction, .001f, 1) && !Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpLeft, ray.direction, .0001f, 1) &&
+        !Physics2D.Raycast(ray.origin + Vector2.left * offsetJumpRight, ray.direction, .0001f, 1);
         
     }
 
@@ -73,15 +73,7 @@ public class JumpMechanics : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit2D (Collider2D collider)
-    {
-        inAir = true;
-    }
     
-    void OnTriggerStay2D(Collider2D collider)
-    {
-        inAir = false;
-    }
 
     public bool getInAir()
     {
