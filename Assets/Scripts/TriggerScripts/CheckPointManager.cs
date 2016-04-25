@@ -12,7 +12,12 @@ public class CheckPointManager : MonoBehaviour {
         {
             playerTransform = playerTransform.parent;
         }
-        currentCheckPoint.gameObject.SetActive(true);
+        foreach (BasicCheckPoint b in GetComponentsInChildren<BasicCheckPoint>(true))
+        {
+            
+            b.gameObject.SetActive(true);
+        }
+        //currentCheckPoint.gameObject.SetActive(true);
     }
 
     public void setCurrentCheckPoint(BasicCheckPoint checkPoint)

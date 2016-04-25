@@ -21,7 +21,6 @@ public class BasicCheckPoint : MonoBehaviour {
 
     public void resetPlayerPosition()
     {
-        print(player.position);
         player.position = resetPosition;
     }
 
@@ -29,7 +28,7 @@ public class BasicCheckPoint : MonoBehaviour {
     {
         if (collider.name == "Player")
         {
-            print(collider.name);
+            //print(collider.name);
             resetPlayerPosition();
         }
     }

@@ -31,7 +31,7 @@ public class PlayerAnimation : MonoBehaviour {
         }
         if (anim.GetCurrentAnimatorStateInfo(SHIELD).IsName("Shield_Up"))
         {
-            shieldSprite.sortingOrder = 2;
+            shieldSprite.sortingOrder = 3;
         }
         else
         {
