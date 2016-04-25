@@ -12,6 +12,7 @@ public class DummyHealth : Health {
 
     public override void takeDamage(float damageTaken, Hitbox hitbox)
     {
+        print("I here and I'm queer");
         anim.ResetTrigger("Hit");
         anim.SetTrigger("Hit");
     }

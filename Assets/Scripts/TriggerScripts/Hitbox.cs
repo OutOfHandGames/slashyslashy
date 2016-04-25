@@ -27,7 +27,7 @@ public class Hitbox : MonoBehaviour {
         hitBoxCollider = GetComponent<Collider2D>();
         rigid.isKinematic = true;
         hitBoxCollider.isTrigger = true;
-        while(parentObject.parent != null)
+        while(parentObject.GetComponent<Health>() == null && parentObject.parent != null)
         {
             parentObject = parentObject.parent;
         }
@@ -69,7 +69,7 @@ public class Hitbox : MonoBehaviour {
         {
             return;
         }
-        print(transform.name);
+        print(hBox.getParentObject().name);
         Health enemyHealth = hBox.getParentObject().GetComponent<Health>();
         Rigidbody2D eRigid = hBox.getParentObject().GetComponent<Rigidbody2D>();
         if (enemyHealth != null)
