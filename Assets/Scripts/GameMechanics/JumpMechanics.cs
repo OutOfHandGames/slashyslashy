@@ -60,16 +60,16 @@ public class JumpMechanics : MonoBehaviour {
     {
         if (fastFall)
         {
-            grav.gravityScale = fastFallScale;
+            rigid.gravityScale = fastFallScale;
             
         }
         else if (slowFall)
         {
-            grav.gravityScale = slowFallScale;
+            rigid.gravityScale = slowFallScale;
         }
         else
         {
-            grav.gravityScale = 1;
+            rigid.gravityScale = 1;
         }
     }
 
