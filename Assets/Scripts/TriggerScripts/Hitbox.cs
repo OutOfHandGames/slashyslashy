@@ -8,7 +8,7 @@ public class Hitbox : MonoBehaviour {
     public Vector2 knockBackDirection = Vector2.zero;
     public float knockBackForce = 100;
     public float damage = 100;
-    public bool isHurtBox = false;
+    public bool isHurtBox = false;//if is hurt box that means that this collider only receives damage. If false this collider gives damage
     
     string id;
 
@@ -69,7 +69,7 @@ public class Hitbox : MonoBehaviour {
         {
             return;
         }
-        print(hBox.getParentObject().name);
+
         Health enemyHealth = hBox.getParentObject().GetComponent<Health>();
         Rigidbody2D eRigid = hBox.getParentObject().GetComponent<Rigidbody2D>();
         if (enemyHealth != null)

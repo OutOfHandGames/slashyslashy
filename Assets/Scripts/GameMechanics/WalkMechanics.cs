@@ -4,12 +4,13 @@ using System.Collections;
 public class WalkMechanics : MonoBehaviour {
     public float speed = 8;
     public float acceleration = 10;
+    public bool moveOn = true;
 
     protected float hInput;
     protected float vInput;
     Rigidbody2D rigid;
 
-    void Start()
+    protected virtual void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
     }
@@ -32,7 +33,10 @@ public class WalkMechanics : MonoBehaviour {
 
     void FixedUpdate()
     {
-        updateMovement();
+        if (moveOn)
+        {
+            updateMovement();
+        }
     }
 
     public float getHInput()

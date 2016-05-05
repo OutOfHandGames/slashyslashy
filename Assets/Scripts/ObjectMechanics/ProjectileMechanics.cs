@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ProjectileMechanics : MonoBehaviour {
     public Vector2 initialVector = Vector2.left * 5;
+    public bool fireOnStart = true;
 
     Rigidbody2D rigid;
     SpriteFlip spriteFlip;
@@ -10,8 +11,12 @@ public class ProjectileMechanics : MonoBehaviour {
     protected virtual void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        rigid.isKinematic = true;
         spriteFlip = GetComponent<SpriteFlip>();
-        launchProjectile(initialVector);
+        if (fireOnStart)
+        {
+            launchProjectile(initialVector);
+        }
 
     }
 
@@ -23,6 +28,7 @@ public class ProjectileMechanics : MonoBehaviour {
 
     public virtual void launchProjectile(Vector2 forceApplied)
     {
+        rigid.isKinematic = false;
         rigid.AddForce(forceApplied, ForceMode2D.Impulse);
     }
 
