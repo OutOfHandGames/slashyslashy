@@ -79,6 +79,7 @@ public class Hitbox : MonoBehaviour {
 
         if (eRigid != null)
         {
+            eRigid.velocity = Vector2.zero;
             eRigid.AddForce(knockBackDirection * knockBackForce, ForceMode2D.Impulse);
         }
 

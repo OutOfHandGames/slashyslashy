@@ -65,6 +65,7 @@ public class JumpMechanics : MonoBehaviour {
         }
         else if (slowFall)
         {
+            print("I am here");
             rigid.gravityScale = slowFallScale;
         }
         else
